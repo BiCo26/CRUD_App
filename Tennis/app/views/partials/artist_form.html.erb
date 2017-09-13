@@ -1,0 +1,14 @@
+<%= form_for @artist do |f| %>
+    <%= f.label :name, label: "artist Title: "%>
+    <%= f.text_field :name %>
+    <br>
+    <%= f.label :description, label: "Description: " %>
+    <%= f.text_field :description %>
+    
+    <br>
+    <%= f.label :director, label: "artist's director: "%>
+    <%= f.text_field :director %>
+    <%= f.button %>
+    <br>
+    
+    <% end %>

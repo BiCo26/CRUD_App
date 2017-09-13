@@ -7,9 +7,9 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 
-Song.create!(name: 'Hotter than hell', description: 'pop')
-Song.create!(name: 'Gasoline', description: 'pop')
-Song.create!(name: 'Im a gigalo', description: 'hip hop')
+Song.create!(name: 'Hotter than hell', genre: 'pop')
+Song.create!(name: 'Gasoline', genre: 'pop')
+Song.create!(name: 'Im a gigalo', genre: 'hip hop')
 
 puts "#{Song.count} songs seeded!"
 
